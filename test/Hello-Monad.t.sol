@@ -9,3 +9,4 @@ contract HelloTest is Test {
         HelloMonad h = new HelloMonad();
         assertEq(h.greet(), "Hello, Monad!");
     }
+}
